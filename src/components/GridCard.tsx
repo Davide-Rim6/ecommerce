@@ -1,5 +1,5 @@
 import mockProducts from "../interface/productinterface";
-import ProductCard from "./productcard";
+import ProductCard from "./ProductCard";
 import "../css/GridCard.css";
 
 export default function GridCard() {
