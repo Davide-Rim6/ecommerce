@@ -36,5 +36,20 @@ export interface Product {
     description: "Dopo innumerevoli tentativi nel creare un'opera d'arte che possa rappresentare la nostra Lucia ci siamo dovuti accontentare di questa foto con i gatti... che carini i gattini ",
 
 },
+{
+    id: "3",
+    name: "Vincenzo che psicanalizza un pinguino",
+    image: "https://th.bing.com/th/id/OIG4.8qSan3.NEFrfg9hJ0nQj?pid=ImgGn",
+    price: "Un rene €",
+    description: "Lo psicologo Vincenzo analizza il pinguino depresso rifiugiato in Italia per colpa del riscaldamento globale",
+
+},{
+    id: "4",
+    name: "Lucia e i gatti",
+    image: "https://th.bing.com/th/id/OIG1.F89.D4o6EKHkGTBDxhpX?pid=ImgGn",
+    price: "un paio di croccantini e un pesciolino €",
+    description: "Dopo innumerevoli tentativi nel creare un'opera d'arte che possa rappresentare la nostra Lucia ci siamo dovuti accontentare di questa foto con i gatti... che carini i gattini ",
+
+},
 ];
 export default mockProducts;
