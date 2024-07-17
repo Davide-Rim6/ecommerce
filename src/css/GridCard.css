@@ -1,0 +1,11 @@
+.center-grid{
+    display: grid;
+    place-items: center;
+    padding: 5rem 0;
+    height: max-content;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
