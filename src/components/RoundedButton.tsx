@@ -1,12 +1,16 @@
 
 
 export interface RoundedButtonProps {
+    icon?: string;
     label: string;
     onClick: () => void;
   }
   
 export default function RoundedButton(
-    { label, onClick,}: RoundedButtonProps = { label: "", onClick: () => {} }
+    { icon, label, onClick,}: RoundedButtonProps = { 
+      icon: "",
+      label: "",
+       onClick: () => {} }
 ) {
     return (
       <button
@@ -16,6 +20,7 @@ export default function RoundedButton(
           onClick();
         }}
       >
+        {icon && <img src={icon} alt="icon" />}
         {label && <p>{label}</p>}
       </button>
     );
