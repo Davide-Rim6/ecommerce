@@ -1,0 +1,13 @@
+.header{
+    background-color: rgb(5, 5, 91);
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+.header h1{
+    font-family: 'MyFont';
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+}

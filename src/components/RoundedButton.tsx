@@ -14,13 +14,13 @@ export default function RoundedButton(
 ) {
     return (
       <button
-        style={{ borderRadius: '10px' }}
+        style={{ borderRadius: '10px' , backgroundColor: 'orange' , borderColor: 'white' }}
         onClick={(e) => {
           e.preventDefault();
           onClick();
         }}
       >
-        {icon && <img src={icon} alt="icon" />}
+        {icon && <img src={icon} alt="icon" height={'60px'}/>}
         {label && <p>{label}</p>}
       </button>
     );

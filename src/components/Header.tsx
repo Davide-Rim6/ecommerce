@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import RoundedButton from "./RoundedButton";
 import "../css/Header.css";
-import CartIcon from "../asset/shopping-cart.svg"
+import CartIcon from "../asset/Immagini/Image20240719110258.png"
 
 export function Header() {
   const { totalItems } = useCart();
@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <div className="header">
-      <p>U' Carrellu</p>
+      <h1>CIBO AMERICANO DU ZU' DAVIDE E ZU' JOSHUA</h1>
       <div className="right-buttons">
         <RoundedButton
           label={totalItems > 0 ? totalItems.toString() : "0"}
