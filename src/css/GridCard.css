@@ -3,9 +3,33 @@
     place-items: center;
     padding: 5rem 0;
     height: max-content;
+    background-image: url(../asset/Immagini/usa.jpg);
+    background-size: contain;
+    /* background-color: blue; */
+    border-radius: 5%;
 }
-
+h3{
+    font-family: 'helvetica';
+}
+p{
+    font-family: 'helvetica';
+}
 .products-grid {
+    background-color: white;
+    /* padding-bottom: 2%; */
+   
+    border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.button{
+    
+    padding: 10px;
+    background-color: rgb(253, 110, 0);
+
+}
+.cardcss {
+    /* border-radius: 50px; */
+    
+    margin-top: 5%;
 }

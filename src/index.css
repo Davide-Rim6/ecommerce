@@ -1,10 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Helvetica,  'Segoe UI', 'Roboto', 'Oxygen', 'MyFont'
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(5, 5, 91);
+}
+@font-face{
+  font-family: 'MyFont';
+  src: url(../src/asset/font/Academy.ttf) format('truetype');
+ 
 }
 
 code {
